@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">冷静星智控</string>
+    <string name="app_description">STM32 红外空调遥控器</string>
+</resources>
