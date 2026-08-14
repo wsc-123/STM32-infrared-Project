@@ -1,0 +1,41 @@
+# ============ 私有配置 ============
+# 从 app_config.example.h 复制一份 app_config.h 并填写自己的信息。
+Firmware/App/app_config.h
+
+# ============ Keil MDK 构建产物 / 本机设置 ============
+Project/Objects/
+Project/Listings/
+Project/DebugConfig/
+Project/*.uvoptx
+Project/*.uvguix.*
+Project/*.log
+*.axf
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.crf
+
+# ============ Android 构建产物 ============
+AndroidRemote/.gradle/
+AndroidRemote/.idea/
+AndroidRemote/build/
+AndroidRemote/app/build/
+AndroidRemote/local.properties
+*.iml
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# 仅将手工挑选且已检查过的发布包放在 release/。
+*.apk
+!release/*.apk
+
+# ============ 系统 / 编辑器临时文件 ============
+.DS_Store
+Thumbs.db
+*.swp
+*~
+~$*.docx
